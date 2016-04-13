@@ -1,0 +1,11 @@
+applications:
+- path: JavaCacheApp.war
+  memory: 512M
+  instances: 1
+  domain: stage1.mybluemix.net
+  name: 1304SampleNodeJSElo1
+  host: 1304SampleNodeJSElo1
+  disk_quota: 1024M
+  services:
+  - 1304SampleNodeJSElo1-DataCache
+  - 1304SampleNodeJSElo1-MonitoringAndAnalytics
